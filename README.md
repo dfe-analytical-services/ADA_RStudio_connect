@@ -7,3 +7,7 @@ A video demonstrating how to use this code can be found in the [Analyst's guide 
 ## Using this code
 
 This code will not run without edits. You need to install an ODBC driver as detailed in the guidance linked above, and use this code as a template to connect to your own databases and tables.
+
+- robdc_connect.R: This script outlines one method of connecting to Databricks using the RODBC package.
+- dplyr_connect.R: This script outlines one method of connecting to Databricks using the dplyr package.
+- write_to_databricks.R: This script outlines one method of writing tables that you have created in R studio back into Databricks using the DBI package.
