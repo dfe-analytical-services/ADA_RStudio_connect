@@ -6,7 +6,7 @@ library(dbplyr)
 library(DBI)
 
 # Use the name of the ODBC driver you have previously installed here. 
-con <- odbcConnect('Databricks_trial')
+con <- odbcConnect('INSERT_ODBC_DRIVER_NAME')
 
 # See what data catalogs are available on Databricks
 sqlQuery(con, "SHOW CATALOGS")
