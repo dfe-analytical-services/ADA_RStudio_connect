@@ -20,4 +20,4 @@ View(tables)
 
 # Read in a table you have access to
 # Use the results above to identify schemas and table names
-devData <- sqlQuery(con, "SELECT * FROM INSERT_SCHEMA.INSERT_TABLE_NAME")
+Data <- sqlQuery(con, "SELECT * FROM INSERT_SCHEMA.INSERT_TABLE_NAME")
