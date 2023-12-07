@@ -6,6 +6,9 @@ library(DBI)
 # In order to perform these actions, the user must have CREATE SCHEMA and CREATE TABLE permissions 
 # for the current database.
 
+# In order to perform these actions, the user must also have created a connection (con variable)
+# and set the catalog using one of the methods in either rodbc_connect.R or dplyr_connect.R
+
 # Define what you want the schema and name to be in Databricks of the table you are writing
 table_spec <- DBI::Id(schema = "INSERT_SCHEMA", table = "INSERT_DESIRED_NAME")
 
